@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+rand(${1:1}..${2:6})
+]]></content>
+    <tabTrigger>ran</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>random range</description>
+</snippet>
