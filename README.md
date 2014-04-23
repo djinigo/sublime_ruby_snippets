@@ -2,6 +2,23 @@
 
 Addendums and fixes for default ruby snippets; tested on Sublime 3
 
+## cla:
+
+	class {cursor1}
+
+		def initialize({cursor2})
+			{cursor3}
+		end
+
+		def to_s
+			{cursor4}
+		end
+
+	end
+
+added to_s function to default class snippet
+
+
 ### do:
 
     do
@@ -13,13 +30,13 @@ http://blog.ianvaughan.co.uk/2013/06/sublime-text-ruby-doend-snippet.html
 
 ### doo:
 
-    do |{cursor}|
-	    {secondary tab position}
+    do |{cursor1}|
+	    {cursor2}
     end
 
-### ran:
+### rand:
 
-    rand({cursor}..{secondary tab position})
+    rand({cursor1}..{cursor2})
 
 default is from 1..6
 
