@@ -42,4 +42,4 @@ default is from 1..6
 
 ### rr:
 
-    require_relative "{cursor}"
+    require_relative '{cursor}'
