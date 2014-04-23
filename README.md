@@ -2,6 +2,21 @@
 
 Addendums and fixes for default ruby snippets; tested on Sublime 3
 
+## att:
+	attr_accessor :{cursor1}
+
+changed command from 'rw'
+
+## atr:
+	attr_reader :{cursor1}
+
+changed command from 'r'
+
+## atw:
+	attr_writer :{cursor1}
+
+changed command from 'rw'
+
 ## cla:
 
 	class {cursor1}
